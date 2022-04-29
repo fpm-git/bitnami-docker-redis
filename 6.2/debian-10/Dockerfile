@@ -1,5 +1,4 @@
-FROM docker.io/bitnami/minideb:buster
-LABEL maintainer "Bitnami <containers@bitnami.com>"
+FROM debian:bullseye-slim
 
 ENV HOME="/" \
     OS_ARCH="amd64" \
